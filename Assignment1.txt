@@ -1,0 +1,131 @@
+Ritik Sharma
+
+Ques 1 : 
+Descriptive Statistics :- 
+* It is that branch of statistics which is concerned with describing 
+the population under study.
+* It organize, analyze and present data in a meaningful way.
+Inferential Statistics :- 
+*It is a type of statistics  that focuses on drawing conclusions 
+about the population, on the basis of sample analysis and observation.
+* It Compares , test and predicts data.
+
+Ques 2 : Explain the concept of the p-value in hypothesis testing.
+How is it used to make decisions regarding the null hypothesis? 
+
+* The p-value in hypothesis testing quantifies the probability of obtaining observed data as
+extreme as what you observed, assuming the null hypothesis is true.
+* When p-value is greater than alpha, we fail to reject the null hypothesis, while p-value is less 
+than alpha, we reject the null hypothesis, and we can conclude that we have a significant result.
+
+Ques 3: Which of the following statements about the standard deviation is true? 
+a) It measures the spread or dispersion of data. 
+b) It represents the most frequent value in a dataset. 
+c) It is the same as the variance. 
+d) It is always positive.
+
+Ans : a)It measures the spread or dispersion of data.
+
+Ques 4: In matrix multiplication, the order of matrices matters. If you have matrices A (3x2) and B (2x4), what will be the dimensions of the resulting matrix when you multiply A by B?
+ a) 3x4
+ b) 2x2
+ c) 3x2
+ d) 2x3
+
+Ans : a) 3x4
+
+Ques 5:Which of the following matrices is an identity matrix? 
+
+Ans: (a)
+
+Ques 6: What is the main purpose of a confidence interval in statistics? 	        (1 Marks)
+a) To determine the sample size required for a study. 
+b) To estimate the population mean or proportion with a margin of error. 
+c) To test hypotheses about population parameters. 
+d) To plot the data points on a graph.
+
+Ans: b) To estimate the population mean or proportion with a margin of error.
+
+Ques 7 For the given dataset, calculate the Mean, Median, Mode, Geometric Mean, and 
+Harmonic Mean and what these values tell us about the data.
+Provide a short explanation about the above mentioned metrics as well. 	
+
+Ans: We have calculated Mean, Median, Mode, Geometric Mean, and 
+Harmonic Mean for Area record in the dataset 
+* For Mean,Geometric Mean, and Harmonic Mean we are getting output as : nan which stands for
+Not a number as from #345377 record we are having Missing data or invalid data for Area records
+* for Median we are getting 399.0 .The median is a measure of central tendency and tells us the value 
+that divides the dataset into two equal halves.It is not affected by extreme outliers.
+so in this dataset we have divided Area into 2 halves and got the midean value as 399.0
+* for mode we have got [1.0] indicating that 1.0 is the most frequently occurring value in the dataset.
+
+
+Ques 8:Determine the shape of the data, inter quartile range, variance, standard deviation, 
+mean absolute deviation of the given data.Provide a short explanation about the above
+mentioned metrics as well. 
+
+
+Ans : The shape of data is spread out as the range i am getting is  8580099.996 and I am getting
+IQR as 3542.5 and we know that 
+A larger IQR indicates greater variability in the middle 50% of data points 
+A smaller IQR suggests less variability in the central portion of the data.
+
+Ques 9:  Calculate the  correlation of the dataframe including correlation categorical variables as well.
+Explain Pearson correlation, Kendall rank correlation, Spearman correlation, and the Point-Biserial correlation.
+
+Ans :
+Pearson correlation :-
+* it measures the linear relationship between two continuous variables.
+* It ranges from -1 to 1 , with 0 indicating no linear correlation.
+
+Kendall rank correlation :-
+*it is a non-parametric measure of association between two variables.
+*It is based on the ranks of the data points rather than their actual values
+
+Spearman correlation :-
+* it measures the strength and direction of the monotonic relationship between two variables.
+* It can handle ties in the data
+
+Point-Biserial Correlation :-
+* it  measure the strength and direction of the association between a dichotomous 
+variable and a continuous variable.
+
+Question 10: Define an orthogonal matrix and elaborate on the reasons for its preference
+in computational applications.
+
+Ans:  orthogonal matrix is a matrix where the dot product of any two distinct rows (or columns) is zero, 
+and the magnitude (length) of each row (or column) is equal to 1. The transpose of an orthogonal matrix is also its inverse.
+
+Here are some key reasons why orthogonal matrices are preferred in various computational applications:-
+
+1. Orthogonal matrices preserve the lengths of vectors and the angles between 
+them during matrix operations.
+2. Orthogonal matrices represent orthogonal transformations,These transformations are used extensively in 
+computer graphics, computer vision, and robotics to manipulate and transform objects or images.
+3. Orthogonal matrices are numerically stable because their inverse is also their transpose.
+
+
+Question 11: What’s the difference between a Matrix and a Tensor?
+
+Ans: 
+
+Matrix: A matrix is a two-dimensional array of numbers arranged in rows and columns. We can add and subtract matrices 
+of the same size, multiply one matrix with another as long as the sizes are compatible ((n × m) × (m × p) = n × p), 
+and multiply an entire matrix by a constant.
+
+Tensor: A tensor is often thought of as a generalized matrix. it could be a 1-D matrix 
+, a 3-D matrix, even a 0-D matrix , or a higher dimensional structure that is harder to visualize.
+ A tensor is a more general mathematical object that can have any number of dimensions. 
+The components of a tensor can be scalars, vectors, matrices, or other tensors.
+
+
+
+
+
+
+
+
+
+
+
+
